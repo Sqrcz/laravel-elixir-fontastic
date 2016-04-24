@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/metrakit/elixir-fontastic.git"
+    "url": "git+https://github.com/metrakit/laravel-elixir-fontastic.git"
   },
   "author": {
     "name": "Jordane JOUFFROY",
@@ -18,7 +18,7 @@
     "elixir gulp laravel fontastic plugin"
   ],
   "dependencies": {
-    "gulp-fontastic": ">=0.0.7"
+    "gulp-fontastic": ">=0.0.9"
   },
   "engines": {
     "node": ">= 0.10"
@@ -26,7 +26,7 @@
   "license": "MIT",
   "gitHead": "48e757a90687a8c5bca9d2945285ac0689aa7023",
   "bugs": {
-    "url": "https://github.com/metrakit/elixir-fontastic/issues"
+    "url": "https://github.com/metrakit/laravel-elixir-fontastic/issues"
   },
-  "homepage": "https://github.com/metrakit/elixir-fontastic#readme"
+  "homepage": "https://github.com/metrakit/laravel-elixir-fontastic#readme"
 }
