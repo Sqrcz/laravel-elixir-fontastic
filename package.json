@@ -15,7 +15,15 @@
     "index.js"
   ],
   "keywords": [
-    "elixir gulp laravel fontastic plugin"
+    "elixir",
+    "laravel",
+    "gulp",
+    "plugin",
+    "gulpplugin",
+    "fontastic",
+    "font",
+    "icon",
+    "svg"
   ],
   "dependencies": {
     "gulp-fontastic": ">=0.1.0"
