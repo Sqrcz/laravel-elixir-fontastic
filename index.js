@@ -14,7 +14,7 @@ var options = {
 
 var Task = Elixir.Task;
 
-Elixir.extend('fontastic', function(apiKey, stylePath, fontDir, fontName) {
+Elixir.extend('fontastic', function(apiKey, stylePath, fontDir, fontPath, fontName, scss) {
 
     if (apiKey === undefined) {
         return new Elixir.Log.message('ERROR: API key missing for Fontastic');
@@ -27,9 +27,13 @@ Elixir.extend('fontastic', function(apiKey, stylePath, fontDir, fontName) {
     var options = {
         key: apiKey,
         style_path: stylePath,
-        font_dir: 'public/' + fontDir + '/',
-        font_path: '/' + fontDir + '/'
+        font_dir: fontDir,
+        font_path: fontPath,
+        scss: scss
     };
+
+        new Elixir.Log.message(options);
+
 
     if (fontName !== undefined) {
         options.font_name = fontName;
